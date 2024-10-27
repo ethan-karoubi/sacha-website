@@ -37,7 +37,7 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item dropdown">
-                            <Link className="nav-link dropdown-toggle" to="/rea" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Nos Réalisations
                             </Link>
                             <ul className="dropdown-menu">
