@@ -37,6 +37,31 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-md-4 widget-area">
+=======
+                <div className="second-footer">
+                    <div className="row">
+                        <div className="col-md-3 widget-area">
+                            <div className="widget clearfix">
+                                <div className="widget-text">
+                                    <p>Chez Jacob Production, nous révélons votre histoire à travers des images percutantes et authentiques. De la captation à la diffusion, nous sublimons chaque instant pour renforcer votre présence et marquer les esprits.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3 widget-area">
+                            <div className="widget clearfix usful-links">
+                                <h3 className="widget-title">Galerie</h3>
+                                <ul>
+                                     <li><a href="/photo/reportage">Reportage</a></li>
+                                     <li><a href="/photo/portrait">Portrait</a></li>
+                                     <li><a href="/photo/evenement">Evenement</a></li>
+                                     <li><a href="/photo/insert">Insert</a></li>
+                                     <li><a href="/photo/packshot">Packshot</a></li>
+                                     <li><a href="/blog">Autre</a></li> 
+                                </ul>
+                            </div>
+                        </div>
+                         <div className="col-md-3 widget-area">
+>>>>>>> afe7857 (Initial commit)
                             <div className="widget clearfix usful-links">
                                 <h3 className="widget-title">Liens rapides</h3>
                                 <ul>
@@ -44,10 +69,20 @@ const Footer = () => {
                                     <li><a href="/services">Services</a></li>
                                     <li><a href="/works">Travaux</a></li>
                                     <li><a href="/blog">Blog</a></li>
+<<<<<<< HEAD
                                 </ul>
                             </div>
                         </div>
                         <div className="col-md-4 widget-area">
+=======
+                                     <li><a href="/about">À propos</a></li>
+                                      <li><a href="/about">À propos</a></li>
+                                       <li><a href="/about">À propos</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-md-3 widget-area">
+>>>>>>> afe7857 (Initial commit)
                             <div className="widget clearfix">
                                 <h3 className="widget-title">Contact</h3>
                                 <div className="featured-icon-box icon-align-before-content icon-ver_align-top style1">

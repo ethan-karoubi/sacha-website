@@ -10,15 +10,29 @@
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
+<<<<<<< HEAD
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
+=======
+    "react-awesome-lightbox": "^1.8.1",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-image-lightbox": "^5.1.4",
+    "react-modal-image": "^2.6.0",
+>>>>>>> afe7857 (Initial commit)
     "react-owl-carousel": "^2.3.3",
     "react-router-dom": "^6.26.2",
     "react-scripts": "5.0.1",
     "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1",
+<<<<<<< HEAD
     "web-vitals": "^2.1.4"
+=======
+    "web-vitals": "^2.1.4",
+    "yet-another-react-lightbox": "^3.21.6"
+>>>>>>> afe7857 (Initial commit)
   },
   "scripts": {
     "start": "react-scripts start",
