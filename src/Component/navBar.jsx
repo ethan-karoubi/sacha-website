@@ -41,7 +41,6 @@ const Navbar = () => {
 =======
                         <li className="nav-item">
                             <Link className="nav-link" to="/rea">Nos Réalisations</Link>
->>>>>>> afe7857 (Initial commit)
                         </li>
 
                         {/* Dropdown "Nos Réalisations" */}
@@ -68,7 +67,7 @@ const Navbar = () => {
                                 <li><Link className="dropdown-item" to="/photo/insert">Insert</Link></li>
                                 <li><Link className="dropdown-item" to="/photo/packshot">Packshot</Link></li>
                                 <li><Link className="dropdown-item" to="/photo/product">Autres</Link></li>
->>>>>>> afe7857 (Initial commit)
+
                             </ul>
                         </li>
 
