@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-import React from 'react';
-=======
-// Component/GalleryP.js
 import React, { useState } from 'react';
 import Lightbox from "react-awesome-lightbox";
 import "react-awesome-lightbox/build/style.css";
->>>>>>> afe7857 (Initial commit)
 
 const GalleryP = () => {
   const images = [
@@ -23,12 +18,9 @@ const GalleryP = () => {
     { src: "/img/portraits/12.jpg", alt: "Portrait 12", category: "Portrait", title: "Photography Title 12" },
   ];
 
-<<<<<<< HEAD
-=======
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
->>>>>>> afe7857 (Initial commit)
   return (
     <>
       {/* Section Header */}
@@ -57,18 +49,6 @@ const GalleryP = () => {
             {images.map((image, index) => (
               <div key={index} className="col-12 col-md-4 portfolio-masonry-wrapper-padding">
                 <div className="portfolio-item-wrapp">
-<<<<<<< HEAD
-                  <div className="portfolio-item">
-                    <div className="portfolio-masonry-wrapper">
-                      <a href={image.src} className="portfolio-masonry-item-img-link">
-                        <img src={image.src} alt={image.alt} className="img-fluid" />
-                        <div className="portfolio-masonry-item-img"></div>
-                        <div className="portfolio-masonry-item-content">
-                          <div className="portfolio-masonry-item-category">{image.category}</div>
-                          <h4 className="portfolio-masonry-item-title">{image.title}</h4>
-                        </div>
-                      </a>
-=======
                   <div
                     className="portfolio-item"
                     onClick={() => { setPhotoIndex(index); setIsOpen(true); }}
@@ -79,7 +59,6 @@ const GalleryP = () => {
                         <div className="portfolio-masonry-item-category">{image.category}</div>
                         <h4 className="portfolio-masonry-item-title">{image.title}</h4>
                       </div>
->>>>>>> afe7857 (Initial commit)
                     </div>
                   </div>
                 </div>
@@ -87,8 +66,6 @@ const GalleryP = () => {
             ))}
           </div>
         </div>
-<<<<<<< HEAD
-=======
 
         {/* Lightbox */}
         {isOpen && (
@@ -98,7 +75,6 @@ const GalleryP = () => {
             onClose={() => setIsOpen(false)}
           />
         )}
->>>>>>> afe7857 (Initial commit)
       </section>
     </>
   );

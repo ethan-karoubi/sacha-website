@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-const GalleryP2 = () => {
-  const images = [
-    { src: "/img/packshot/1.jpg", alt: "Packshot 1", category: "Packshot", title: "Photography Title 1" },
-    { src: "/img/packshot/14.jpg", alt: "Packshot 14", category: "Packshot", title: "Photography Title 14" },
-    { src: "/img/packshot/3.jpg", alt: "Packshot 3", category: "Packshot", title: "Photography Title 3" },
-    { src: "/img/packshot/5.jpg", alt: "Packshot 5", category: "Packshot", title: "Photography Title 5" },
-    { src: "/img/packshot/6.jpg", alt: "Packshot 6", category: "Packshot", title: "Photography Title 6" },
-    { src: "/img/packshot/7.jpg", alt: "Packshot 7", category: "Packshot", title: "Photography Title 7" },
-    { src: "/img/packshot/8.jpg", alt: "Packshot 8", category: "Packshot", title: "Photography Title 8" },
-    { src: "/img/packshot/9.jpg", alt: "Packshot 9", category: "Packshot", title: "Photography Title 9" },
-    { src: "/img/packshot/11.jpg", alt: "Packshot 11", category: "Packshot", title: "Photography Title 11" },
-    { src: "/img/packshot/12.jpg", alt: "Packshot 12", category: "Packshot", title: "Photography Title 12" },
-    { src: "/img/packshot/13.jpg", alt: "Packshot 13", category: "Packshot", title: "Photography Title 13" },
-    { src: "/img/packshot/2.jpg", alt: "Packshot 2", category: "Packshot", title: "Photography Title 2" }
-  ];
-
-=======
 // Component/GalleryP2.js
 import React, { useState } from 'react';
 import Lightbox from "react-awesome-lightbox";
@@ -42,17 +22,12 @@ const GalleryP2 = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
->>>>>>> afe7857 (Initial commit)
   return (
     <>
       {/* Section Header */}
       <section
         className="banner-header banner-img banner-img-top section-padding valign bg-img bg-fixed banner-overlay"
         data-overlay-darkgray="1"
-<<<<<<< HEAD
-        data-background="/img/banner/7.jpg"
-=======
->>>>>>> afe7857 (Initial commit)
         style={{ backgroundImage: "url('/img/banner2.jpg')" }}
       >
         <div className="container">
@@ -73,22 +48,11 @@ const GalleryP2 = () => {
         <div className="container">
           <div className="row">
             {images.map((image, index) => (
-<<<<<<< HEAD
               <div key={index} className="col-12 col-md-4 portfolio-masonry-wrapper-padding">
-                <div className="portfolio-item-wrapp">
-                  <div className="portfolio-item">
-                    <div className="portfolio-masonry-wrapper">
-                      <a href={image.src} className="portfolio-masonry-item-img-link">
-                        <img src={image.src} alt={image.alt} className="img-fluid" />
-                        <div className="portfolio-masonry-item-img"></div>
-                        <div className="portfolio-masonry-item-content">
-                          <div className="portfolio-masonry-item-category">{image.category}</div>
-                          <h4 className="portfolio-masonry-item-title">{image.title}</h4>
-                        </div>
-                      </a>
-=======
-              <div key={index} className="col-md-4 gallery-item">
-                <div className="img-zoom" onClick={() => { setPhotoIndex(index); setIsOpen(true); }}>
+                <div
+                  className="gallery-item img-zoom"
+                  onClick={() => { setPhotoIndex(index); setIsOpen(true); }}
+                >
                   <div className="gallery-box">
                     <div className="gallery-img">
                       <img src={image.src} alt={image.alt} className="img-fluid mx-auto d-block" />
@@ -96,7 +60,6 @@ const GalleryP2 = () => {
                     <div className="portfolio-masonry-item-content">
                       <div className="portfolio-masonry-item-category">{image.category}</div>
                       <h4 className="portfolio-masonry-item-title">{image.title}</h4>
->>>>>>> afe7857 (Initial commit)
                     </div>
                   </div>
                 </div>
@@ -104,9 +67,8 @@ const GalleryP2 = () => {
             ))}
           </div>
         </div>
-<<<<<<< HEAD
-=======
 
+        {/* Lightbox */}
         {isOpen && (
           <Lightbox
             images={images.map((img) => ({ url: img.src, title: img.title }))}
@@ -114,7 +76,6 @@ const GalleryP2 = () => {
             onClose={() => setIsOpen(false)}
           />
         )}
->>>>>>> afe7857 (Initial commit)
       </section>
     </>
   );

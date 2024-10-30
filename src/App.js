@@ -92,20 +92,14 @@ function App() {
                 }
               />
 
-              {/* Sous-routes pour chaque galerie sous "Nos Réalisations" */}
-<<<<<<< HEAD
-              <Route path="/rea/reportage" element={<GalleryR />} />
-              <Route path="/rea/portrait" element={<GalleryP />} />
-              <Route path="/rea/evenement" element={<GalleryE />} />
-              <Route path="/rea/insert" element={<GalleryI />} />
-              <Route path="/rea/packshot" element={<GalleryP2 />} />
-=======
+              {/* Sous-routes pour chaque galerie sous "Nos Photographie" */}
+
               <Route path="/photo/reportage" element={<GalleryR />} />
               <Route path="/photo/portrait" element={<GalleryP />} />
               <Route path="/photo/evenement" element={<GalleryE />} />
               <Route path="/photo/insert" element={<GalleryI />} />
               <Route path="/photo/packshot" element={<GalleryP2 />} />
->>>>>>> afe7857 (Initial commit)
+
 
               {/* Page Contact */}
               <Route path="/contact" element={<Contact />} />
